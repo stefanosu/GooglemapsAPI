@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Simple Map</title>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<!--Created a div element called map here to hold the map-->
+	<div id="map"></div>
+
+	<!--The scripts.js file goes here-->	
+	<script src="js/scripts.js"></script>	
+    <!-- Here goes the script tag where I input the googlemapsAPI and input a async attribute and callback parameter which causes the loading of the API to block until the API is downloaded. This may slow the time of the page load --> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtGfPCNunP9nA4VXr2-YITtZ30yaTYkt8&callback=initMap" async defer></script> 
+</body>
+</html>
